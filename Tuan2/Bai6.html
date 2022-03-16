@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <table style="border: 2px solid;">  
+          <tr>
+              <th>1</th>
+              <th>2</th>
+              <th colspan="3">3</th>
+          </tr>
+          <tr>
+              <td colspan="2">4</td>
+              <td rowspan="2">5</td>
+              <td>6</td>
+              <td>7</td>
+          </tr>
+          <tr>
+              <td rowspan="2">8</td>
+              <td>9</td>
+              <td>10</td>
+              <td rowspan="2">13</td>
+
+          </tr>
+          <tr>
+              <td>11</td>
+              <td>12</td>
+          </tr>
+
+        </table>
+    </div>
+    <style>
+        td,th{
+            border: 1px solid;
+            width: 64px;
+            height: 50px;
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BangSV Dki</title>
+        <meta charset="utf-8">
+
+    </head>
+    <body>
+        <div class="box">
+            <div>
+                <h2>Đăng kí tài khoản SV </h2>
+               <div class="box2">
+                <div>
+                    Họ tên <br>
+                    <input type="text" placeholder="Nguyen Van A"><br>
+                    MSSV<br>
+                    <input type="text" placeholder="00000000" maxlength="8"><br>
+                    Ngày sinh<br>
+                    <input type="date">
+                </div>
+                <div>
+                    <input name="gioitinh" type="radio" required>Nam
+                    <input name="gioitinh" type="radio" required>Nữ
+                    <input name="gioitinh" type="radio"  required>Khác
+                </div>
+                <div>
+                    Tên đăng nhập<br> <input type="text" required><br>
+                    Mật khẩu <br> <input type="password" required><br>
+                    Email <br><input type="text" required>
+                </div>
+                <div>
+                    <br>
+                    <input type="button" value="Đăng kí">
+                </div>
+               </div>
+            </div>
+            <hr>
+            <h2>
+                Danh sách Sinh Viên đã đăng kí
+            </h2>
+            <table class="table">
+                    <tr>
+                        <th>STT</th>
+                        <th>MSSV</th>
+                        <th>Họ tên</th>
+                        <th>Email đăng kí</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>0000</td>
+                        <td>Nguyen Van A</td>
+                        <td>avannguyen22</td>
+                    </tr>  
+                    <tr>
+                        <td>2</td>
+                        <td>11111</td>
+                        <td>Nguyen THi B</td>
+                        <td>bthi12@gmail.com</td>
+                    </tr>
+            </table>
+        </div>
+        <style>
+           table, th, td{
+               border: 1px solid rgb(190, 172, 172);
+               background-color: rgb(235, 235, 235);
+           }
+           html{
+               border: 1px solid black;
+               width: 20%;
+               margin-left: 5px;
+
+           }
+           .box{
+               border: 1px solid black;
+               background-color: blanchedalmond;
+           }
+           .box2{
+               margin: 2px;
+           }
+           h2{
+               text-align: center;
+           }
+        </style>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Menu cấp 1 hàng ngang</h2>
+    <ul class="ngang2">
+        <li class="ngang">Header</li>
+        <li class="ngang">Aside</li>
+        <li class="ngang">Section</li>
+        <li class="ngang">Footer</li>
+    </ul>
+    <h2>Menu cấp 1 hàng dọc</h2>
+        <ul class="doc1">
+            <li class="doc">Header</li>
+            <li class="doc">Aside</li>
+            <li class="doc">Section</li>
+            <li class="doc">Footer</li>
+        </ul>
+    
+</body>
+<style>
+    .doc{
+        list-style: none;
+        border: 2px dashed #ccc;
+        width: 120px;
+        background-color: aquamarine;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-radius: 10px;
+        display: block;
+        padding: 4px 8px ;
+        box-shadow: 0 0 0 2px aquamarine;
+    
+    }
+    .doc1{
+        display: inline-block;
+        padding: 4px;
+        box-shadow: 0 0 5px rgba(0, 0, 0.3);
+        background-color: #fff;
+    }
+    .ngang{
+        display: inline-block;
+        padding: 2px 20px;
+        background-color: aquamarine;
+        float: left;
+        line-height: 41px;
+        font-weight: 1000;
+        color: white;
+        border: 2px dashed;
+        border-radius: 10px;
+        margin: 0 4px;
+        box-shadow: 0 0 0 3px aquamarine;
+       
+
+
+    }
+    .ngang2{
+        background-color: blanchedalmond;
+        height: 49px;
+        width: 30%;
+        display: block;
+        box-shadow: 0 0 10px rgba(0, 0, 0.3);
+        padding: 4px;
+    }
+</style>
+</html>

@@ -1,0 +1,58 @@
+h1 { font-family: Arial, Helvetica, sans-serif; text-align: center; border: thin #000099 dashed}
+h2 { font-family: Georgia, "Times New Roman", Times, serif; font-size: 9px; font-style: italic; color:
+#CC0000; text-decoration: blink}
+h3 { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bold;
+color: #FF3399}
+h4 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16px; font-style: italic; color:
+#FFFF00}
+h5 { font-family: "Courier New", Courier, mono; font-size: 24px; font-style: italic; color: #009999}
+h6 { font-family: Arial, Helvetica, sans-serif; font-size: 9px; font-style: normal; font-weight: lighter;
+color: #009900}
+h2{
+    font-size: 50px;
+}
+.box{
+    border: 1px black solid;
+    background-color: aquamarine;
+}
+.box300{
+    width: 300px;
+}
+.box500{
+    width: 500px;
+
+}
+.box1k{
+    width: 1000px;
+}
+.box500 >p{
+    padding: 8px;
+}
+.table{
+
+}
+td{
+    border: 1px solid black;
+    width: 72px;
+    
+}
+th{
+    background-color: #FF3399;
+}
+.dong-chan{
+    background-color: beige;
+}
+.dong-le{
+    background-color: azure;
+}
+.col{
+    padding: 8px;
+    margin: 4px;
+    float: left;
+}
+.col-3{
+    width: 30%;
+}
+.row:after{
+    clear: both;
+}

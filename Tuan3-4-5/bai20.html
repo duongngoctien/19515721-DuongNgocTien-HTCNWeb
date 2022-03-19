@@ -4,29 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bai20</title>
 </head>
 <body>
+   <div class="box">
     <h2>Menu cấp 2 hàng dọc</h2>
-        <ul class="doc1">
-            <li class="doc">Header</li>
-            <li class="doc">Aside</li>
-            <li class="doc">Section
-                <ul class="sub">
-                    <li>Content</li>
-                    <li>Subcontent</li>
-                </ul>
-            </li>
-            <li class="doc">Footer</li>
-        </ul>
-    
+    <ul class="doc1">
+        <li class="doc">Header</li>
+        <li class="doc">Aside</li>
+        <li class="doc">Section
+            <ul class="sub">
+                <li>Content</li>
+                <li>Subcontent</li>
+            </ul>
+        </li>
+        <li class="doc">Footer</li>
+    </ul>
 
 
+
+   </div>
     <style> 
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .box{
+        width: 320px;
+        box-shadow: 0 0 0 5px rgba(0, 217, 255, 0.3);
+        background-color: rgba(93, 233, 123, 0.3);
+
+    }
      li{
          position: relative;
         list-style: none;
-        border: 2px dashed #ccc;
+        border: 2px dashed rgb(0, 108, 170);
         width: 120px;
         background-color: aquamarine;
         text-align: center;
@@ -34,31 +47,31 @@
         border-radius: 10px;
         display: block;
         padding: 4px 8px ;
-        box-shadow: 0 0 0 1px aquamarine;
+       
+        box-shadow: 0 0 0 1.5px aquamarine;
         margin-top: 4px;
     
     }
     .doc1{
         display: inline-block;
         padding: 4px;
-        background-color: #fff;
+        /* background-color: #fff; */
     }
     li .sub{
         display: none;
         position: absolute;
-        width: 120px;
         padding: 0;
-      margin: -6px 0 0 45px;
-      box-shadow: 0 0 0 1px black;
-
+        margin: -6px 0 0 36px;
+    }
+    li:hover{
+        cursor: pointer;
+        background-color: azure;
 
     }
     li:hover .sub{
         display: inline-block;
     }
-    .sub li:hover {
-        background-color: azure;
-    }
+    
     </style>
 </body>
 </html>
